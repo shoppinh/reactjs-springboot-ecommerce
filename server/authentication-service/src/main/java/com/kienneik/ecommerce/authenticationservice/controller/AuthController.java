@@ -1,21 +1,15 @@
-package com.ujjaval.ecommerce.authenticationservice.controller;
+package com.kienneik.ecommerce.authenticationservice.controller;
 
-import com.ujjaval.ecommerce.authenticationservice.entity.UserInfo;
-import com.ujjaval.ecommerce.authenticationservice.model.AccountCreationRequest;
-import com.ujjaval.ecommerce.authenticationservice.model.AccountCreationResponse;
-import com.ujjaval.ecommerce.authenticationservice.model.AuthenticationRequest;
-import com.ujjaval.ecommerce.authenticationservice.model.AuthenticationResponse;
-import com.ujjaval.ecommerce.authenticationservice.service.AuthDataService;
-import com.ujjaval.ecommerce.authenticationservice.service.CustomUserDetailsService;
-import com.ujjaval.ecommerce.authenticationservice.util.JwtUtil;
-import com.ujjaval.ecommerce.authenticationservice.util.Md5Util;
+import com.kienneik.ecommerce.authenticationservice.entity.UserInfo;
+import com.kienneik.ecommerce.authenticationservice.model.AccountCreationRequest;
+import com.kienneik.ecommerce.authenticationservice.model.AccountCreationResponse;
+import com.kienneik.ecommerce.authenticationservice.model.AuthenticationRequest;
+import com.kienneik.ecommerce.authenticationservice.model.AuthenticationResponse;
+import com.kienneik.ecommerce.authenticationservice.service.AuthDataService;
+import com.kienneik.ecommerce.authenticationservice.service.CustomUserDetailsService;
+import com.kienneik.ecommerce.authenticationservice.util.JwtUtil;
+import com.kienneik.ecommerce.authenticationservice.util.Md5Util;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.core.io.ClassPathResource;
-import org.springframework.core.io.InputStreamResource;
-import org.springframework.core.io.Resource;
-import org.springframework.http.HttpHeaders;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.BadCredentialsException;
@@ -23,9 +17,6 @@ import org.springframework.security.authentication.UsernamePasswordAuthenticatio
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.web.bind.annotation.*;
 
-import javax.servlet.http.HttpServletResponse;
-import java.io.ByteArrayInputStream;
-import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.util.Base64;
 

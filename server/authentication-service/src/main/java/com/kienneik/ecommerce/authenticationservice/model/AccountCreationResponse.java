@@ -1,4 +1,4 @@
-package com.ujjaval.ecommerce.authenticationservice.model;
+package com.kienneik.ecommerce.authenticationservice.model;
 
 import lombok.*;
 

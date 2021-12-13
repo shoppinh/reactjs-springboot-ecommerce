@@ -1,8 +1,7 @@
-package com.ujjaval.ecommerce.authenticationservice;
+package com.kienneik.ecommerce.authenticationservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.web.servlet.config.annotation.CorsRegistry;
 
 @SpringBootApplication
 public class AuthenticationServiceApplication {

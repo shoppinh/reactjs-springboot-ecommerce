@@ -1,6 +1,6 @@
-package com.ujjaval.ecommerce.authenticationservice.dao;
+package com.kienneik.ecommerce.authenticationservice.dao;
 
-import com.ujjaval.ecommerce.authenticationservice.entity.UserInfo;
+import com.kienneik.ecommerce.authenticationservice.entity.UserInfo;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;

@@ -1,8 +1,8 @@
-package com.ujjaval.ecommerce.authenticationservice.service;
+package com.kienneik.ecommerce.authenticationservice.service;
 
-import com.ujjaval.ecommerce.authenticationservice.dao.UserInfoRepository;
-import com.ujjaval.ecommerce.authenticationservice.entity.UserInfo;
-import com.ujjaval.ecommerce.authenticationservice.util.Md5Util;
+import com.kienneik.ecommerce.authenticationservice.dao.UserInfoRepository;
+import com.kienneik.ecommerce.authenticationservice.entity.UserInfo;
+import com.kienneik.ecommerce.authenticationservice.util.Md5Util;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

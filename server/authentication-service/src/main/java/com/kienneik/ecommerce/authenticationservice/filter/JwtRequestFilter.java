@@ -1,7 +1,7 @@
-package com.ujjaval.ecommerce.authenticationservice.filter;
+package com.kienneik.ecommerce.authenticationservice.filter;
 
-import com.ujjaval.ecommerce.authenticationservice.service.CustomUserDetailsService;
-import com.ujjaval.ecommerce.authenticationservice.util.JwtUtil;
+import com.kienneik.ecommerce.authenticationservice.service.CustomUserDetailsService;
+import com.kienneik.ecommerce.authenticationservice.util.JwtUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.context.SecurityContextHolder;

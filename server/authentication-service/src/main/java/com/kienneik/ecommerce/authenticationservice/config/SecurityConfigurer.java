@@ -1,7 +1,7 @@
-package com.ujjaval.ecommerce.authenticationservice.config;
+package com.kienneik.ecommerce.authenticationservice.config;
 
-import com.ujjaval.ecommerce.authenticationservice.filter.JwtRequestFilter;
-import com.ujjaval.ecommerce.authenticationservice.service.CustomUserDetailsService;
+import com.kienneik.ecommerce.authenticationservice.filter.JwtRequestFilter;
+import com.kienneik.ecommerce.authenticationservice.service.CustomUserDetailsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.security.authentication.AuthenticationManager;
@@ -15,7 +15,7 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 
 @EnableWebSecurity
-public class SecurityConfigurer extends WebSecurityConfigurerAdapter {
+public class    SecurityConfigurer extends WebSecurityConfigurerAdapter {
 
     @Autowired
     private CustomUserDetailsService customUserDetailsService;

@@ -1,4 +1,4 @@
-package com.ujjaval.ecommerce.authenticationservice.util;
+package com.kienneik.ecommerce.authenticationservice.util;
 
 import javax.xml.bind.DatatypeConverter;
 import java.security.MessageDigest;
